@@ -10,12 +10,13 @@ To print supported options:
 ```
 java -jar target/bootique-demo-0.0.1-SNAPSHOT.jar 
 ```
-To run with default config:
+To run with **default** config:
 ```
 java -jar target/bootique-demo-0.0.1-SNAPSHOT.jar --server
 ```
-Then open [http://127.0.0.1:8080/](http://127.0.0.1:8080/). To run with custom config:
+Then open [http://127.0.0.1:8080/](http://127.0.0.1:8080/). 
 
+To run with **custom** config:
 ```
 java -jar target/bootique-demo-0.0.1-SNAPSHOT.jar --server --config=test.yml
 ```
