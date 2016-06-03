@@ -1,7 +1,7 @@
 Simple [Bootique](http://bootique.io) demo app. To build do something like this:
 
 ```
-git clone git@github.com:andrus/bootique-rest-demo.git
+git clone git@github.com:bootique-examples/bootique-rest-demo.git
 cd bootique-rest-demo
 
 mvn clean package
