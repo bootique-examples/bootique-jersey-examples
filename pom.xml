@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.nhl.bootique.parent</groupId>
+		<groupId>io.bootique.parent</groupId>
 		<artifactId>bootique-parent</artifactId>
-		<version>0.10</version>
+		<version>0.12</version>
 	</parent>
 
 	<groupId>com.objectstyle</groupId>
@@ -26,9 +26,9 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.nhl.bootique.bom</groupId>
+				<groupId>io.bootique.bom</groupId>
 				<artifactId>bootique-bom</artifactId>
-				<version>0.18</version>
+				<version>0.19</version>
 				<scope>import</scope>
 				<type>pom</type>
 			</dependency>
@@ -37,15 +37,15 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.nhl.bootique</groupId>
+			<groupId>io.bootique</groupId>
 			<artifactId>bootique</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.nhl.bootique.jersey</groupId>
+			<groupId>io.bootique.jersey</groupId>
 			<artifactId>bootique-jersey</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.nhl.bootique.logback</groupId>
+			<groupId>io.bootique.logback</groupId>
 			<artifactId>bootique-logback</artifactId>
 		</dependency>
 	</dependencies>

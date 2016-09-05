@@ -2,8 +2,8 @@ package com.objectstyle.bootique_demo;
 
 import com.google.inject.Binder;
 import com.google.inject.Module;
-import com.nhl.bootique.Bootique;
-import com.nhl.bootique.jersey.JerseyModule;
+import io.bootique.Bootique;
+import io.bootique.jersey.JerseyModule;
 
 /**
  * Hello world!
