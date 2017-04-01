@@ -17,6 +17,6 @@ public class App implements Module {
 
 	@Override
 	public void configure(Binder binder) {
-		JerseyModule.contributeResources(binder).addBinding().to(HelloApi.class);
+		JerseyModule.extend(binder).addResource(HelloApi.class);
 	}
 }
