@@ -12,7 +12,7 @@ import io.bootique.jersey.JerseyModule;
 public class App implements Module {
 
 	public static void main(String[] args) {
-		Bootique.app(args).autoLoadModules().module(App.class).run();
+		Bootique.app(args).autoLoadModules().module(App.class).exec().exit();
 	}
 
 	@Override
