@@ -1,6 +1,6 @@
 jetty:
-  connector:
-    port: 9000
+  connectors:
+    - port: 9000
 
 jersey:
   urlPattern: /bq
