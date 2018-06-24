@@ -8,19 +8,19 @@
         <version>0.12</version>
     </parent>
 
-    <groupId>io.bootique.jersey.demo</groupId>
-    <artifactId>bootique-jersey-demo</artifactId>
+    <groupId>io.bootique.rest.demo</groupId>
+    <artifactId>bootique-rest-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>bootique-jersey-demo</name>
+    <name>bootique-rest-demo</name>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <main.class>io.bootique.jersey.demo.App</main.class>
+        <main.class>io.bootique.rest.demo.App</main.class>
     </properties>
 
     <dependencyManagement>
