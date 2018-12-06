@@ -13,4 +13,5 @@ public class HelloApi {
     public String get() {
         return "{\"message\":\"Hello, Bootique!!\"}";
     }
+
 }

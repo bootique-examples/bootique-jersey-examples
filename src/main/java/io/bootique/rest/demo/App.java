@@ -11,11 +11,16 @@ import io.bootique.jersey.JerseyModule;
 public class App implements Module {
 
     public static void main(String[] args) {
-        Bootique.app(args).autoLoadModules().module(App.class).exec().exit();
+        Bootique.app(args)
+                .autoLoadModules()
+                .module(App.class)
+                .exec()
+                .exit();
     }
 
     @Override
     public void configure(Binder binder) {
-        JerseyModule.extend(binder).addResource(HelloApi.class);
+        JerseyModule.extend(binder)
+                .addResource(HelloApi.class);
     }
 }
