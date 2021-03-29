@@ -1,3 +1,5 @@
+[![verify](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml)
+
 Simple [Bootique](http://bootique.io) demo app. To build do something like this:
 
 ```
