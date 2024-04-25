@@ -2,8 +2,10 @@
 
 # Bootique 3.x REST Demo 
 
-This is a simple [Bootique](http://bootique.io) REST service demo app. Different branches contain code for different 
-versions of Bootique:
+This is a simple [Bootique](http://bootique.io) REST service demo app. It shows how to create and register REST 
+endpoints, write integration tests for the REST API, assemble and run the application.
+
+Different Git branches contain demo code for different versions of Bootique:
 
 * [3.x](https://github.com/bootique-examples/bootique-rest-demo/)
 * [2.x](https://github.com/bootique-examples/bootique-rest-demo/tree/2.x)
