@@ -2,21 +2,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>io.bootique.parent</groupId>
-        <artifactId>bootique-parent</artifactId>
-        <version>0.14</version>
-    </parent>
-
     <groupId>io.bootique.rest.demo</groupId>
     <artifactId>bootique-rest-demo</artifactId>
-    <version>2.0.M1</version>
+    <version>3.0</version>
     <packaging>jar</packaging>
 
     <name>bootique-rest-demo</name>
 
     <properties>
+        <maven.compiler.release>11</maven.compiler.release>
         <main.class>io.bootique.rest.demo.App</main.class>
+
+        <bootique.version>3.0-M4</bootique.version>
     </properties>
 
     <dependencyManagement>
@@ -24,7 +21,7 @@
             <dependency>
                 <groupId>io.bootique.bom</groupId>
                 <artifactId>bootique-bom</artifactId>
-                <version>2.0.M1</version>
+                <version>${bootique.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -38,7 +35,7 @@
         </dependency>
         <dependency>
             <groupId>io.bootique.jersey</groupId>
-            <artifactId>bootique-jersey</artifactId>
+            <artifactId>bootique-jersey-jakarta</artifactId>
         </dependency>
         <dependency>
             <groupId>io.bootique.logback</groupId>
@@ -49,7 +46,55 @@
     <build>
         <plugins>
             <plugin>
-                <artifactId>maven-shade-plugin</artifactId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>${main.class}</mainClass>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <useUniqueVersions>false</useUniqueVersions>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <configuration>
+                    <includeScope>runtime</includeScope>
+                    <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>assembly</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.7.1</version>
+                <configuration>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <descriptors>
+                        <descriptor>assembly.xml</descriptor>
+                    </descriptors>
+                    <tarLongFileMode>posix</tarLongFileMode>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

@@ -1,31 +1,49 @@
 [![verify](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml)
 
-Simple [Bootique](http://bootique.io) demo app.
+Simple [Bootique](http://bootique.io) REST service demo app. Different versions of Bootique are shown on different 
+branches:
 
-You can find different versions of framework in use at
-* [1.x](https://github.com/bootique-examples/bootique-rest-demo/tree/1.x)
+* [3.x](https://github.com/bootique-examples/bootique-rest-demo/)
 * [2.x](https://github.com/bootique-examples/bootique-rest-demo/tree/2.x)
+* [1.x](https://github.com/bootique-examples/bootique-rest-demo/tree/1.x)
 
-To build do something like this:
 
+## Bootique 3.x
+
+To build and run the demo, ensure you have Java 11 or newer and then follow these steps:
+
+1. Checkout
 ```
 git clone git@github.com:bootique-examples/bootique-rest-demo.git
 cd bootique-rest-demo
+```
 
+2. Build and package
+
+This project uses a [runnable jar with lib folder](https://bootique.io/docs/3.x/bootique-docs/#runnable-jar-with-lib) 
+packaging recipe:
+
+```
 mvn clean package
 ```
-To print supported options:
+Now your app is packaged for distribution as `target/bootique-rest-demo-3.0.tar.gz` archive. But the unpacked version 
+is also present in the `target` folder and can be used to run the app.
+
+3. Run
+
+To print supported options help:
 ```
-java -jar target/bootique-rest-demo-2.0.M1.jar 
+java -jar target/bootique-rest-demo-3.0.jar 
 ```
-To run with **default** config:
+
+To run with default config:
 ```
-java -jar target/bootique-rest-demo-2.0.M1.jar --server
+java -jar target/bootique-rest-demo-3.0.jar --server
 ```
 Then open [http://127.0.0.1:8080/](http://127.0.0.1:8080/). 
 
-To run with **custom** config:
+To run with a custom config:
 ```
-java -jar target/bootique-rest-demo-2.0.M1.jar --server --config=test.yml
+java -jar target/bootique-rest-demo-3.0.jar --server --config=test.yml
 ```
 Then open [http://127.0.0.1:9000/bq](http://127.0.0.1:9000/bq).
