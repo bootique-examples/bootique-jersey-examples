@@ -1,4 +1,4 @@
-name: verify
+name: 'build test'
 
 on: [pull_request, push]
 
