@@ -1,14 +1,13 @@
 [![verify](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml)
 
-Simple [Bootique](http://bootique.io) REST service demo app. Different versions of Bootique are shown on different 
-branches:
+# Bootique 3.x REST Demo 
+
+This is a simple [Bootique](http://bootique.io) REST service demo app. Different branches contain code for different 
+versions of Bootique:
 
 * [3.x](https://github.com/bootique-examples/bootique-rest-demo/)
 * [2.x](https://github.com/bootique-examples/bootique-rest-demo/tree/2.x)
 * [1.x](https://github.com/bootique-examples/bootique-rest-demo/tree/1.x)
-
-
-## Bootique 3.x
 
 To build and run the demo, ensure you have Java 11 or newer and then follow these steps:
 
