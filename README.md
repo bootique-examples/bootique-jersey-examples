@@ -12,13 +12,13 @@ branches:
 
 To build and run the demo, ensure you have Java 11 or newer and then follow these steps:
 
-1. Checkout
+### Checkout
 ```
 git clone git@github.com:bootique-examples/bootique-rest-demo.git
 cd bootique-rest-demo
 ```
 
-2. Build and package
+### Build and package
 
 This project uses a [runnable jar with lib folder](https://bootique.io/docs/3.x/bootique-docs/#runnable-jar-with-lib) 
 packaging recipe:
@@ -29,7 +29,7 @@ mvn clean package
 Now your app is packaged for distribution as `target/bootique-rest-demo-3.0.tar.gz` archive. But the unpacked version 
 is also present in the `target` folder and can be used to run the app.
 
-3. Run
+### Run
 
 To print supported options help:
 ```
