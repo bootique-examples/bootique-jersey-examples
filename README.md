@@ -31,17 +31,19 @@ is also present in the `target` folder and can be used to run the app.
 
 ### Run
 
-To print supported options help:
+The following command prints a help message with supported options:
 ```
 java -jar target/bootique-rest-demo-3.0.jar 
 ```
 
-To run with default config, execute the following command and the open http://127.0.0.1:8080/
+The following command runs the REST app with the default config. Once the app is started, you can see the results by
+going to this URL in the browser: http://127.0.0.1:8080/
 ```
 java -jar target/bootique-rest-demo-3.0.jar --server
 ```
 
-To run with a custom config, expecute the following command then open http://127.0.0.1:9000/bq
+The following command runs the REST app with a custom config, Once the app is started, you can see the results by
+going to this URL in the browser: http://127.0.0.1:9000/bq
 ```
 java -jar target/bootique-rest-demo-3.0.jar --server --config=test.yml
 ```
