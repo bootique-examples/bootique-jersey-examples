@@ -19,7 +19,7 @@ git clone git@github.com:bootique-examples/bootique-rest-demo.git
 cd bootique-rest-demo
 ```
 
-### Build and package
+### Build, test and package
 
 This project uses a [runnable jar with lib folder](https://bootique.io/docs/3.x/bootique-docs/#runnable-jar-with-lib) 
 packaging recipe:
