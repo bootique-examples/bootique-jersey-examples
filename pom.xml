@@ -11,9 +11,10 @@
 
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
-        <main.class>io.bootique.rest.demo.App</main.class>
 
         <bootique.version>3.0-M4</bootique.version>
+
+        <main.class>io.bootique.rest.demo.App</main.class>
     </properties>
 
     <dependencyManagement>

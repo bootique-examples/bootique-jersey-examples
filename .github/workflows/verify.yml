@@ -18,4 +18,4 @@ jobs:
           cache: 'maven'
 
       - name: Build and test...
-        run: mvn -ntp clean verify
+        run: mvn -X -ntp clean verify
