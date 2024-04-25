@@ -21,14 +21,13 @@ cd bootique-rest-demo
 
 ### Build, test and package
 
-This project uses a [runnable jar with lib folder](https://bootique.io/docs/3.x/bootique-docs/#runnable-jar-with-lib) 
-packaging recipe:
-
+Run the following command to build the code, run the tests and package the app:
 ```
 mvn clean package
 ```
-Now your app is packaged for distribution as `target/bootique-rest-demo-3.0.tar.gz` archive. But the unpacked version 
-is also present in the `target` folder and can be used to run the app.
+This project uses a [runnable jar with lib folder](https://bootique.io/docs/3.x/bootique-docs/#runnable-jar-with-lib)
+packaging recipe, so now the app is packaged for distribution as `target/bootique-rest-demo-3.0.tar.gz` archive. But 
+there is also the "unpacked" version in the `target` folder that can be used to run the app.
 
 ### Run
 
