@@ -36,14 +36,12 @@ To print supported options help:
 java -jar target/bootique-rest-demo-3.0.jar 
 ```
 
-To run with default config:
+To run with default config, execute the following command and the open http://127.0.0.1:8080/
 ```
 java -jar target/bootique-rest-demo-3.0.jar --server
 ```
-Then open [http://127.0.0.1:8080/](http://127.0.0.1:8080/). 
 
-To run with a custom config:
+To run with a custom config, expecute the following command then open http://127.0.0.1:9000/bq
 ```
 java -jar target/bootique-rest-demo-3.0.jar --server --config=test.yml
 ```
-Then open [http://127.0.0.1:9000/bq](http://127.0.0.1:9000/bq).
