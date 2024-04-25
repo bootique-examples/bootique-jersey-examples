@@ -7,7 +7,7 @@ endpoints, write integration tests for the REST API, assemble and run the applic
 
 Different Git branches contain demo code for different versions of Bootique:
 
-* [3.x](https://github.com/bootique-examples/bootique-rest-demo/)
+* [3.x](https://github.com/bootique-examples/bootique-rest-demo/tree/3.x)
 * [2.x](https://github.com/bootique-examples/bootique-rest-demo/tree/2.x)
 * [1.x](https://github.com/bootique-examples/bootique-rest-demo/tree/1.x)
 
