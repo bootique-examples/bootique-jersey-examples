@@ -49,8 +49,8 @@ going to this URL in the browser: http://127.0.0.1:8080/
 java -jar target/bootique-jersey-examples-3.0.jar --server
 ```
 
-The following command runs the REST app with a custom config, Once the app is started, you can see the results by
-going to this URL in the browser: http://127.0.0.1:9000/bq
+The following command runs the REST app with a custom config that changes the app port and context, Once the app is
+started, you can see the results by going to this URL in the browser: http://127.0.0.1:9000/bq
 ```
-java -jar target/bootique-jersey-examples-3.0.jar --server --config=test.yml
+java -jar target/bootique-jersey-examples-3.0.jar --server --config=config.yml
 ```
