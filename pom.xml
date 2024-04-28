@@ -31,10 +31,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.bootique</groupId>
-            <artifactId>bootique</artifactId>
-        </dependency>
-        <dependency>
             <groupId>io.bootique.jersey</groupId>
             <artifactId>bootique-jersey-jakarta</artifactId>
         </dependency>
