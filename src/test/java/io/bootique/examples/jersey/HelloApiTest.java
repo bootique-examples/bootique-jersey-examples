@@ -1,4 +1,4 @@
-package io.bootique.rest.demo;
+package io.bootique.examples.jersey;
 
 import io.bootique.BQRuntime;
 import io.bootique.Bootique;
