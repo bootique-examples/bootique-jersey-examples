@@ -1,4 +1,4 @@
-package io.bootique.examples.jersey;
+package io.bootique.examples.jersey.server;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

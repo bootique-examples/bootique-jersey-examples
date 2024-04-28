@@ -1,4 +1,4 @@
-package io.bootique.examples.jersey;
+package io.bootique.examples.jersey.server;
 
 import io.bootique.BQRuntime;
 import io.bootique.Bootique;

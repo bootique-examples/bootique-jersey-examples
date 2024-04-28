@@ -3,17 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.bootique.examples.jersey</groupId>
-    <artifactId>bootique-jersey-examples</artifactId>
+    <artifactId>jersey-server-example</artifactId>
     <version>3.0</version>
     <packaging>jar</packaging>
-
-    <name>bootique-rest-demo</name>
 
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
 
         <bootique.version>3.0-M4</bootique.version>
-        <main.class>io.bootique.examples.jersey.App</main.class>
+        <main.class>io.bootique.examples.jersey.server.App</main.class>
     </properties>
 
     <dependencyManagement>

@@ -2,7 +2,7 @@
 
 # Bootique 3.x Jersey Examples 
 
-Provides examples of [Bootique](https://bootique.io) integration with Jersey. Different Git branches contain the example code for different versions of Bootique:
+Provides examples of [Bootique](https://bootique.io) integration with Jersey. Different Git branches contain example code for different versions of Bootique:
 
 * [3.x](https://github.com/bootique-examples/bootique-jersey-examples/tree/3.x)
 * [2.x](https://github.com/bootique-examples/bootique-jersey-examples/tree/2.x)
@@ -10,5 +10,5 @@ Provides examples of [Bootique](https://bootique.io) integration with Jersey. Di
 
 ## Contents
 
-* [Jersey Server examples](bootique-jersey-server/)
+* [Jersey Server Example](jersey-server-example/)
 

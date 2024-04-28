@@ -1,4 +1,4 @@
-package io.bootique.examples.jersey;
+package io.bootique.examples.jersey.server;
 
 import io.bootique.BQModule;
 import io.bootique.Bootique;
