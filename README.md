@@ -22,5 +22,7 @@ cd bootique-jersey-examples/
 ```
 ## Contents
 
+Each one of the examples below had further instructions on how to build and run it.
+
 * [Jersey Server Example](jersey-server-example/)
 * [Jersey Client Example](jersey-client-example/)
