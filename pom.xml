@@ -10,10 +10,10 @@
     <name>bootique-rest-demo</name>
 
     <properties>
+        <!-- Note that Bootique 3.x supports Java 11 or newer-->
         <maven.compiler.release>21</maven.compiler.release>
 
         <bootique.version>3.0-M4</bootique.version>
-
         <main.class>io.bootique.rest.demo.App</main.class>
     </properties>
 
