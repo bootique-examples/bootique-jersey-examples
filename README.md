@@ -11,4 +11,18 @@ Provides examples of [Bootique](https://bootique.io) integration with Jersey. Di
 ## Contents
 
 * [Jersey Server Example](jersey-server-example/)
+* [Jersey Client Example](jersey-client-example/)
+
+## Prerequisites
+
+To build and run the example code, ensure you have the following installed on your machine:
+
+* Java 11 or newer
+* Maven
+
+and then checkout the examples code:
+```
+git clone git@github.com:bootique-examples/bootique-jersey-examples.git
+cd bootique-jersey-examples/
+```
 

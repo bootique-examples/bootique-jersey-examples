@@ -3,25 +3,11 @@
 This is an example [Bootique](http://bootique.io) REST service app with Jersey. It shows how to create and register REST 
 endpoints, write integration tests for the REST API, assemble and run the application.
 
-## Prerequisites
-
-To build and run the code, ensure you have the following installed on your machine:
-
-* Java 11 or newer
-* Maven
-
-and then follow these steps:
-
-## Checkout
-```
-git clone git@github.com:bootique-examples/bootique-jersey-examples.git
-cd bootique-jersey-examples/bootique-jersey-server/
-```
-
 ## Build, test and package
 
 Run the following command to build the code, run the tests and package the app:
 ```
+cd jersey-server-example/
 mvn clean package
 ```
 This project uses a [runnable jar with lib folder](https://bootique.io/docs/3.x/bootique-docs/#runnable-jar-with-lib)

@@ -17,5 +17,8 @@ jobs:
           distribution: 'temurin'
           cache: 'maven'
 
-      - name: Build and test...
+      - name: Build and test server...
         run: cd jersey-server-example && mvn -ntp clean verify
+
+      - name: Build and test client...
+        run: cd jersey-client-example && mvn -ntp clean verify
