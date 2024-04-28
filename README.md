@@ -11,7 +11,14 @@ Different Git branches contain demo code for different versions of Bootique:
 * [2.x](https://github.com/bootique-examples/bootique-rest-demo/tree/2.x)
 * [1.x](https://github.com/bootique-examples/bootique-rest-demo/tree/1.x)
 
-To build and run the demo, ensure you have Java 11 or newer and then follow these steps:
+## Prerequisites
+
+To build and run the demo, ensure you have the following installed on your machine:
+
+* Java 11 or newer
+* Maven
+
+and then follow these steps:
 
 ## Checkout
 ```
