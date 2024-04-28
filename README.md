@@ -8,11 +8,6 @@ Provides examples of [Bootique](https://bootique.io) integration with Jersey. Di
 * [2.x](https://github.com/bootique-examples/bootique-jersey-examples/tree/2.x)
 * [1.x](https://github.com/bootique-examples/bootique-jersey-examples/tree/1.x)
 
-## Contents
-
-* [Jersey Server Example](jersey-server-example/)
-* [Jersey Client Example](jersey-client-example/)
-
 ## Prerequisites
 
 To build and run the example code, ensure you have the following installed on your machine:
@@ -25,4 +20,7 @@ and then checkout the examples code:
 git clone git@github.com:bootique-examples/bootique-jersey-examples.git
 cd bootique-jersey-examples/
 ```
+## Contents
 
+* [Jersey Server Example](jersey-server-example/)
+* [Jersey Client Example](jersey-client-example/)
