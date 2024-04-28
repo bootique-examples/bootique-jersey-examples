@@ -18,4 +18,4 @@ jobs:
           cache: 'maven'
 
       - name: Build and test...
-        run: mvn -ntp clean verify
+        run: cd bootique-jersey-server && mvn -ntp clean verify
