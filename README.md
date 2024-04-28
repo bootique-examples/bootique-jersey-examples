@@ -1,4 +1,4 @@
-[![build test](https://github.com/bootique-examples/bootique-rest-examples/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-rest-examples/actions/workflows/verify.yml)
+[![build test](https://github.com/bootique-examples/bootique-jersey-examples/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-jersey-examples/actions/workflows/verify.yml)
 
 # Bootique 3.x Jersey Examples 
 
@@ -7,9 +7,9 @@ endpoints, write integration tests for the REST API, assemble and run the applic
 
 Different Git branches contain the example code for different versions of Bootique:
 
-* [3.x](https://github.com/bootique-examples/bootique-rest-examples/tree/3.x)
-* [2.x](https://github.com/bootique-examples/bootique-rest-examples/tree/2.x)
-* [1.x](https://github.com/bootique-examples/bootique-rest-examples/tree/1.x)
+* [3.x](https://github.com/bootique-examples/bootique-jersey-examples/tree/3.x)
+* [2.x](https://github.com/bootique-examples/bootique-jersey-examples/tree/2.x)
+* [1.x](https://github.com/bootique-examples/bootique-jersey-examples/tree/1.x)
 
 ## Prerequisites
 
