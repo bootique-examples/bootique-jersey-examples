@@ -1,19 +1,19 @@
-[![build test](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-rest-demo/actions/workflows/verify.yml)
+[![build test](https://github.com/bootique-examples/bootique-rest-examples/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-rest-examples/actions/workflows/verify.yml)
 
 # Bootique 3.x Jersey Examples 
 
 This is an example [Bootique](http://bootique.io) REST service app with Jersey. It shows how to create and register REST 
 endpoints, write integration tests for the REST API, assemble and run the application.
 
-Different Git branches contain demo code for different versions of Bootique:
+Different Git branches contain the example code for different versions of Bootique:
 
-* [3.x](https://github.com/bootique-examples/bootique-rest-demo/tree/3.x)
-* [2.x](https://github.com/bootique-examples/bootique-rest-demo/tree/2.x)
-* [1.x](https://github.com/bootique-examples/bootique-rest-demo/tree/1.x)
+* [3.x](https://github.com/bootique-examples/bootique-rest-examples/tree/3.x)
+* [2.x](https://github.com/bootique-examples/bootique-rest-examples/tree/2.x)
+* [1.x](https://github.com/bootique-examples/bootique-rest-examples/tree/1.x)
 
 ## Prerequisites
 
-To build and run the demo, ensure you have the following installed on your machine:
+To build and run the code, ensure you have the following installed on your machine:
 
 * Java 11 or newer
 * Maven
