@@ -13,13 +13,13 @@ Different Git branches contain demo code for different versions of Bootique:
 
 To build and run the demo, ensure you have Java 11 or newer and then follow these steps:
 
-### Checkout
+## Checkout
 ```
 git clone git@github.com:bootique-examples/bootique-rest-demo.git
 cd bootique-rest-demo
 ```
 
-### Build, test and package
+## Build, test and package
 
 Run the following command to build the code, run the tests and package the app:
 ```
@@ -29,7 +29,7 @@ This project uses a [runnable jar with lib folder](https://bootique.io/docs/3.x/
 packaging recipe, so now the app is packaged for distribution as `target/bootique-rest-demo-3.0.tar.gz` archive. But 
 there is also the "unpacked" version in the `target` folder that can be used to run the app.
 
-### Run
+## Run
 
 The following command prints a help message with supported options:
 ```
