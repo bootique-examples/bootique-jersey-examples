@@ -6,13 +6,10 @@ import io.bootique.command.CommandWithMetadata;
 import io.bootique.jersey.client.HttpClientFactory;
 import io.bootique.meta.application.CommandMetadata;
 import io.bootique.meta.application.OptionMetadata;
+import jakarta.inject.Inject;
+import jakarta.inject.Provider;
 import jakarta.ws.rs.core.Response;
 
-import javax.inject.Inject;
-import javax.inject.Provider;
-import javax.inject.Singleton;
-
-@Singleton
 public class ReadCommand extends CommandWithMetadata {
 
     static final String URL_OPTION = "url";
