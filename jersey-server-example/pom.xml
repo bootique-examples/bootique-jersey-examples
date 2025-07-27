@@ -10,7 +10,7 @@
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
 
-        <bootique.version>3.0-M4</bootique.version>
+        <bootique.version>3.0-RC1</bootique.version>
         <main.class>io.bootique.examples.jersey.server.App</main.class>
     </properties>
 
