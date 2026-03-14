@@ -4,13 +4,13 @@
 
     <groupId>io.bootique.examples.jersey</groupId>
     <artifactId>jersey-client-example</artifactId>
-    <version>3.0</version>
+    <version>4.0</version>
     <packaging>jar</packaging>
 
     <properties>
-        <maven.compiler.release>11</maven.compiler.release>
+        <maven.compiler.release>21</maven.compiler.release>
 
-        <bootique.version>3.0</bootique.version>
+        <bootique.version>4.0-M3</bootique.version>
         <main.class>io.bootique.examples.jersey.client.App</main.class>
     </properties>
 
