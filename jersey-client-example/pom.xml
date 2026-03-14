@@ -10,7 +10,7 @@
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
 
-        <bootique.version>3.0-RC1</bootique.version>
+        <bootique.version>3.0</bootique.version>
         <main.class>io.bootique.examples.jersey.client.App</main.class>
     </properties>
 
@@ -36,18 +36,6 @@
             <artifactId>bootique-logback</artifactId>
         </dependency>
 
-        <!-- TODO: these two dependencies can be removed starting with BQ 3.0-M5 -->
-        <!--   see https://github.com/bootique/bootique-jersey/issues/88 for details -->
-        <dependency>
-            <groupId>org.glassfish.jaxb</groupId>
-            <artifactId>jaxb-runtime</artifactId>
-            <version>4.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.xml.bind</groupId>
-            <artifactId>jakarta.xml.bind-api</artifactId>
-            <version>4.0.2</version>
-        </dependency>
     </dependencies>
 
     <build>
