@@ -29,7 +29,7 @@
     <dependencies>
         <dependency>
             <groupId>io.bootique.jersey</groupId>
-            <artifactId>bootique-jersey-jakarta-client</artifactId>
+            <artifactId>bootique-jersey-client</artifactId>
         </dependency>
         <dependency>
             <groupId>io.bootique.logback</groupId>
