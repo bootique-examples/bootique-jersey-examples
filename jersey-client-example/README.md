@@ -1,4 +1,4 @@
-# Bootique 3.x Jersey Server Example
+# Bootique 4.x Jersey Server Example
 
 This is an example [Bootique](http://bootique.io) HTTP client app written with Jersey.
 
@@ -15,10 +15,10 @@ mvn clean package
 
 The following command prints a help message with supported options:
 ```
-java -jar target/jersey-client-example-3.0.jar 
+java -jar target/jersey-client-example-4.0.jar 
 ```
 
 And now you can run the command with any public URL to retrieve the URL contents. E.g.:
 ```
-java -jar target/jersey-client-example-3.0.jar --read --url=https://google.com
+java -jar target/jersey-client-example-4.0.jar --read --url=https://google.com
 ```
